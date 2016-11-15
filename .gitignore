@@ -38,6 +38,7 @@
 *.opensdf
 *.sdf
 *.VC.opendb
+*.VC.db
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -60,3 +61,5 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+WindowsNoEditor/*
