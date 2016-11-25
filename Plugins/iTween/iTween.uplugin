@@ -1,0 +1,21 @@
+{
+	"PluginFileVersion":3,
+
+	"DisplayName": "iTween for UE4",
+	"Version": 0.8,
+	"VersionName": "0.8.7 beta",
+	"CreatedBy": "Bob Berkebile - PixelPlacement, Jared Therriault - Sweet",
+	"CreatedByUrl": "http://www.pixelplacement.com",
+	"EngineVersion": 1579795,
+	"Description": "Procedural, on-the-fly animation for actors, components, 	and UMG.",
+	"Category": "iTween",
+
+	"Modules":
+	[
+		{
+			"Name": "iTween",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

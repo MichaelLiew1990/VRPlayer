@@ -6,6 +6,8 @@ public class VRPlayer : ModuleRules
 {
 	public VRPlayer(TargetInfo Target)
 	{
+        PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore", "UMG", });
+
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
